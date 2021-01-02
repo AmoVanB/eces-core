@@ -33,6 +33,7 @@ public class JSONUtil {
 	 * Creates a JSON Object out of an Entity. The JSON Object lists all the
 	 * Systems known by the Entity, and for each of them, the Components
 	 * attached to the Entity.
+	 * @param controller Controller responsible for the entity.
 	 * @param entity Entity ID.
 	 * @return The created JSON Object.
 	 */

@@ -44,6 +44,9 @@ public class Mapper<C extends Component> {
 	/**
 	 * Creates a new Mapper.
 	 * @param controller Controller handling the Mapper.
+	 * @param systemIdentifier System ID of the Component class handled by the mapper.
+	 * @param componentIdentifier Component ID of the Component class handled by the mapper.
+	 * @param componentClassType Component class handled by the mapper.
 	 */
 	protected Mapper(Controller controller, int systemIdentifier, int componentIdentifier, Class<C> componentClassType) {
 		super();
@@ -54,7 +57,7 @@ public class Mapper<C extends Component> {
 
 	/**
 	 * Creates a new Mapper.
-	 * To be used by classes extending Mapper<C> such that 'C' is automatically
+	 * To be used by classes extending Mapper&lt;C&gt; such that 'C' is automatically
 	 * inferred. There, 'C' will be automatically inferred.
 	 * @param controller Controller handling the Mapper.
 	 */

@@ -407,6 +407,7 @@ public class Controller {
 	/**
 	 * Gets a new Mapper.
 	 * @param componentClassType Component class the Mapper has to handle.
+	 * @param <C> Class the mapper has to handle.
 	 * @return The new Mapper.
 	 */
 	@SuppressWarnings({"unchecked", "rawtypes" })
