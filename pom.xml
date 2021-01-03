@@ -4,11 +4,11 @@
     <parent>
         <groupId>de.tum.ei.lkn.eces</groupId>
         <artifactId>master-pom</artifactId>
-        <version>1.0.20</version>
+        <version>1.0.21</version>
     </parent>
 
     <artifactId>core</artifactId>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
 
     <description>This project implements an Entity-Component Event-based System (ECES) framework. In such a framework, classes are organized as components that attach to entities, and listeners (or callbacks) can be easily configured to asynchronously run upon the creation/deletion/update of selected components.</description>
     <url>https://github.com/AmoVanB/eces-core</url>
